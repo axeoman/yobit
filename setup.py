@@ -24,7 +24,7 @@ setup(
     url="https://github.com/Mambix/yobit",
     packages=find_packages(exclude=('tests')),
     entry_points={'console_scripts': ['YoBit=YoBit:main']},
-    install_requires=[],
+    install_requires=['requests'],
     long_description=long_description,
     classifiers=[
         "Programming Language :: Python",
